@@ -1,0 +1,444 @@
+<DOCTYPE html>
+    <html>
+
+    <head>
+        <center>
+            <title>My Website</title>
+        </center>
+        <center><big>
+                <h1>FOODIE</h1>
+            </big></center>
+        <center>
+            <h3>EAT DELICIOUS</h3>
+        </center>
+        <style>
+            * {
+                font-family: sans-serif;
+                font-size: 20;
+            }
+
+            body,
+            ul,
+            li {
+                margin: 0;
+                padding: 0;
+            }
+
+            p,
+            li,
+            h2,
+            h4 {
+                color: blue;
+                font-family: monospace;
+            }
+
+            h1,
+            h3 {
+                font-size: 50px;
+                font-family: cursive;
+                color: blue;
+            }
+
+            body {
+                background-color: cornsilk;
+            }
+
+            .wrapper {
+                width: 96%;
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 0 2%;
+            }
+
+            header {
+                color: aliceblue;
+                float: right;
+                padding: 10px 0;
+                padding-bottom: 100px;
+            }
+
+            .logo {
+                margin: 0;
+                background: url(my%20website%20.png);
+                background-size: 70px 70px;
+                float: left;
+                width: 70px;
+                height: 70px;
+            }
+
+            header nav {
+                float: right;
+            }
+
+            header:after {
+                content: "";
+                clear: both;
+                display: block;
+            }
+
+            header nav li {
+                list-style-type: none;
+                float: left;
+                margin-left: 20px;
+                margin-top: 20px;
+            }
+
+            header nav li a {
+                text-decoration: none;
+                color: darkslatergrey;
+                font-size: 15px;
+                text-transform: uppercase;
+            }
+
+            #main-banner {
+                width: 100%;
+                max-height: 500px;
+                overflow: hidden;
+            }
+
+            #main-banner img {
+                width: 100%;
+            }
+
+            #slider {
+                overflow: hidden;
+            }
+
+            #slides {
+                position: relative;
+                width: 500%;
+                margin: 0;
+                left: 0;
+                text-align: left;
+                font-size: 0;
+                animation: 18s slidy infinite;
+            }
+
+            #slides img {
+                width: 20%;
+                float: left
+            }
+
+            #variety li:nth-child(even) {
+                margin: 0 1%;
+            }
+
+            #variety:after {
+                content: " ";
+                display: block;
+                clear: both;
+            }
+
+            #Variety {
+                text-align: center;
+            }
+
+            footer {
+                width: 100%;
+                background-color: darkslategray;
+                padding: 30px 0;
+                margin-top: 60px;
+            }
+
+            footer ul {
+                float: left;
+                width: 48%;
+                margin: 1%;
+            }
+
+            footer ul h3 {
+                font-size: 30px;
+                color: azure;
+            }
+
+            footer ul li {
+                list-style-type: none;
+                font-size: 15px;
+                color: azure;
+            }
+
+            footer:after {
+                content: "";
+                display: block;
+                clear: both;
+            }
+
+            /* Animation */
+            @keyframes slidy {
+                0% {
+                    left: 0%;
+                }
+
+                28% {
+                    left: 0%;
+                }
+
+                33% {
+                    left: -100%;
+                }
+
+                61% {
+                    left: -100%;
+                }
+
+                66% {
+                    left: -200%;
+                }
+
+                94% {
+                    left: -200%;
+                }
+
+                100% {
+                    left: 0%;
+                }
+            }
+
+            .greet {
+                background-color: #48C9B0;
+                font-family: fantasy;
+                font-size: 20px;
+                color: white;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                text-align: center;
+
+
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <!-- Header Starts -->
+        <header>
+            <div class="introduction">
+                <div class="logo"></div>
+                <nav>
+                    <ul>
+                        <li><a href="http://127.0.0.1:53801/index25.html">Home</a></li>
+                        <li><a href="http://127.0.0.1:53801/index26.html">About us</a></li>
+                        <li><a href="http://127.0.0.1:53801/index27.html">Contact us</a></li>
+                        <li><a href="http://127.0.0.1:53801/index28.html">Food</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- Header Ends -->
+
+        <!-- Greeting Section Starts -->
+        <div class="greet">
+            <p id="namesec"></p>
+        </div>
+        <!-- Greeting Section Ends -->
+
+        <!-- Banner Starts -->
+        <div id="main-banner">
+            <div id="slider">
+                <div id="slides">
+                    <img src="banner.png.1.jpg" alt="banner">
+                    <img src="banner.png.2.jpg" alt="banner">
+                    <img src="banner.png.3.jpg" alt="banner">
+                </div>
+            </div>
+        </div>
+        <!-- Banner Ends -->
+
+        <!-- Food Variety Starts -->
+        <div class="wrapper">
+            <section id="variety">
+                <center>
+                    <h2 id="Variety">Variety Of Food</h2>
+                </center>
+                <li>
+                    <p>
+                <li>
+                    <h2><a href="http://127.0.0.1:53801/index29.html">1.Indian Food</a></h2>
+                </li>
+                </p>
+                <img src="indian%20food.jpg">
+                <img src="Indian%20food%202.jpg">
+                <p>Get the best type of Indian Delicacie's like: Pav Bhaji,Vada Pav,Dosa,Idli and etc.</p>
+                </li>
+                <li>
+                    <p>
+                <li>
+                    <h2><a href="http://127.0.0.1:53801/index30.html">2.ITALIAN FOOD</a></h2>
+                </li>
+                </p>
+                <img src="italian%20food.jpg">
+                <img src="italian%20food.2.jpg">
+                <p>Get the best type of Italian delicacie's like: Pasta,Noodles,Pizza and etc.</p>
+                </li>
+                <li>
+                    <p>
+                <li>
+                    <h2><a href="http://127.0.0.1:53801/index31.html">3.MEXICAN FOOD</a></h2>
+                </li>
+                </p>
+                <img src="mexican food.jpg">
+                <img src="mexican%20food.2.jpg">
+                <p>Get the best type of Mexican delicaice's like: Quesadillas,Tacos,Burrito,Tomato Salsa,Enchiladas and etc.</p>
+                </li>
+                <li>
+                    <p>
+                <li>
+                    <h2><a href="http://127.0.0.1:53801/index32.html">4.SRI LANKAN FOOD</a></h2>
+                </li>
+                </p>
+                <img src="sri%20lankan%20food.jpg">
+                <img src="sri%20lankan%20food.2.jpg">
+                <p>Get the best type of Sri Lankan delicacie's like: Fish Ambul Thiyal,Chicken Curry,Appam/hoppers and etc.</p>
+                </li>
+                <li>
+                    <p>
+                <li>
+                    <h2><a href="http://127.0.0.1:53801/index33.html">5.THAI FOOD</a></h2>
+                </li>
+                </p>
+                <img src="Thai food.jpg">
+                <img src="Thai food.2.jpg">
+                <p>Get the best type of Thai delicacie's like: Spicy Shrimp Soup,Red/Green/Yellow and Fish Curry,Fried Rice and etc.</p>
+                </li>
+                <li>
+                    <p>
+                <li>
+                    <h2><a href="http://127.0.0.1:53801/index34.html">6.SINGAPOREAN FOOD</a></h2>
+                </li>
+                </p>
+                <img src="singaporean food.jpg">
+                <img src="singaporean food.2.jpg">
+                <p>Get the best type of Singaporean delicacie's like: Chili Crab,Chicken Rice and etc.</p>
+                </li>
+                <li>
+                    <p>
+                <li>
+                    <h2><a href="http://127.0.0.1:53801/index35.html">7.MALAYSIAN FOOD</a></h2>
+                </li>
+                </p>
+                <img src="malaysian%20food.jpg">
+                <img src="malaysian%20food.2.jpg">
+                <p>Get the best type of Malysian delicacie's like: Chicken with Percik sauce,Roasted Beef,Fried Chicken,Crispy Lamp and etc.</p>
+                </li>
+                <li>
+                    <p>
+                <li>
+                    <h2><a href="http://127.0.0.1:53801/index36.html">8.JAPANESE FOOD</a></h2>
+                </li>
+                </p>
+                <img src="japanese food.jpg">
+                <img src="japanese food.2.jpg">
+                <p>Get the best type of Japanese delicacie's like: BuckWheat Noodles,Hearty Wheat Noodles,Rice Balls and etc.</p>
+                </li>
+                <li>
+                    <p>
+                <li>
+                    <h2><a href="http://127.0.0.1:53801/index37.html">9.AMERICAN FOOD</a></h2>
+                </li>
+                </p>
+                <img src="american%20food.jpg">
+                <img src="american%20food.2.jpg">
+                <p>Get the best type of American delicacie's like: Hamburder,Deep-Dish Pizza,French Fries and etc.</p>
+                </li>
+            </section>
+        </div>
+        <!-- Food Variety Ends -->
+
+        <!-- USP Section Starts -->
+        <div class="wrapper">
+            <section id="usp">
+                <ol>
+                    <li>
+                        <h2>Fast Delivery</h2>
+                        <img src="fast%20delivery.png">
+                    </li>
+                    <li>
+                        <h2>Multiple Stores</h2>
+                        <img src="store-icon.png">
+                    </li>
+                    <li>
+                        <h2>Happy customers</h2>
+                        <img src="happy%20customers%20.png">
+                    </li>
+                    <li>
+                        <h2>Satisfaction Guaranteed</h2>
+                        <img src="satisfaction%20guaranteed.png">
+                    </li>
+                </ol>
+            </section>
+        </div>
+        <!-- USP Section Ends -->
+
+        <!-- Footer Starts -->
+        <footer>
+            <div class="wrapper">
+                <ol>
+                    <h3>Get in touch</h3>
+                    <li>Foodie-Maharashtra India</li>
+                    <li>Adress:Gokuldham Society Powder Gali Goregaon 400060</li>
+                    <li>Call today- +91 18001800</li>
+                </ol>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/hGHCPb6G_bY?start=54" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <h2>Due to this pandemic the food is prepared by the machines and not by humans for everyone's safety</h2>
+            </div>
+        </footer>
+        <!-- Footer Ends -->
+
+        <!-- Information Starts -->
+        <div class="wrapper">
+            <ol>
+                <li>A Website Made By:</li>
+                <li>Harsshil Vanmali</li>
+                <li>Made At Age:</li>
+                <li>11</li>
+            </ol>
+        </div>
+
+        <!-- JS Codes Starts-->
+        <script>
+            function myFunction() {
+                var name = prompt(""
+                    Hello user, What is your name ? "", ""
+                    doe "");
+
+                var msg;
+                var date = new Date();
+                var hour = date.getHours();
+
+                if (hour < 12) {
+                    msg = ""
+                    Hello "" + name + ""
+                    Good Morning "";
+                    document.getElementById(""
+                        namesec "").innerHTML = msg;
+
+                } else if (hour > 12 && hour < 16) {
+                    msg = ""
+                    Hello "" + name + ""
+                    Good Afternoon "";
+                    document.getElementById(""
+                        namesec "").innerHTML = msg;
+                } else if (hour > 16 && hour < 23) {
+                    msg = ""
+                    Hello "" + name + ""
+                    Good Evening "";
+                    document.getElementById(""
+                        namesec "").innerHTML = msg;
+                } else {
+                    msg = ""
+                    greetings of the day "";
+                    document.getElementById(""
+                        namesec "").innerHTML = msg;
+
+                }
+
+                document.body.style.backgroundColor = bg;
+
+            }
+
+        </script>
+
+        <!-- JS Codes Ends -->
+    </body>
+
+    </html>
